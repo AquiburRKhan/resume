@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Aquibur Rahman Khan</title>
+	<meta name="description" content="resume">
+	<meta name="author" content="Aquibur Rahman Khan">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.6.0/annyang.min.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="tab-logo.png" >
+
+</head>
+
+<body>
+
+<script>
+if (annyang) {
+
+//defining the command to be recieved and assigning the necessary values to the variables
+//used alerts as a debugging mechanism
+//first alert is to show the user what the computer heard
+   commands = {
+    ':place': function(place) {
+
+if(place=='home'){
+$('#myhome').trigger('click');
+}
+if(place=='about'){
+$('#myabout').trigger('click');
+}
+if(place=='resume'||place=='review'||place=='resumen'){
+$('#myresume').trigger('click');
+}
+if(place=='achievement'||place=='achievements'){
+$('#myachievement').trigger('click');
+}
+if(place=='references'||place=='reference'){
+$('#myreferences').trigger('click');
+}
+if(place=='1'||place=='won'){
+$('#one').trigger('click');
+}
+if(place=='2'||place=='to'||place=='too'){
+$('#two').trigger('click');
+}
+if(place=='3'||place=='free'){
+$('#three').trigger('click');
+}
+if(place=='4'){
+$('#four').trigger('click');
+}
+if(place=='close'||place=='clothes'||place=="Lowe's"){
+$('#close').trigger('click');
+}
+
+
+}
+};
+
+  // Add command to annyang
+  annyang.addCommands(commands);
+
+  // Start listening.
+  function start(){
+  annyang.start();
+
+}
+
+window.onload=start();
+}
+
+
+</script>
+
+
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" style="background-color:#1F2024 " href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" style="background-color:#1F2024 " href="#" title="Hide navigation">Hide navigation</a>
+
+
+         <ul id="nav" class="nav">
+            <li class="current"><a id="myhome" class="smoothscroll" href="#home">Home</a></li>
+            <li><a id="myabout" class="smoothscroll" href="#about">About</a></li>
+	         <li><a id="myresume" class="smoothscroll" href="#resume">Resume</a></li>
+	         <li><a id="myachievement" class="smoothscroll" href="#achievements">Achievements</a></li>
+            <li><a id="myreferences" class="smoothscroll" href="#References">References</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Aquibur Rahman Khan.</h1>
+            <h3>I'm a Dhaka based <span>full stack</span> developer who is looking to create awesome and
+            effective visual websites. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/aquibur.khan"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I am a Computer Science student, having studied at American International University of Bangladesh since September 2011. I completed both my A-level and O-level from Aga Khan School, graduating in 2011. My expertise lies in dealing with programming languages such as C, C++, C#, PHP, HTML and database expertise in PL/SQL, Oracle-12c. I am also familiar with both bootstrap and github. I am currently searching for a suitable organization that would utilize both my skills and knowledge for its own benefits as well as enriching my own. 
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Aquibur Rahman Khan</span><br>
+						   <span>Apt A8, Bailey Ballerina<br>
+						         Plot 144, New Bailyroad<br>
+						         Ramna, Dhaka<br>
+						         Bangladesh
+                     </span><br>
+						   <span>01703862282</span><br>
+                     <span>ark.aquib17@gmail.com</span>
+					   </p>
+
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>American International University of Bangladesh</h3>
+                  <p class="info">Bachelors in Computer Science<span>&bull;</span> <em class="date">May 2015</em></p>
+
+                  <p>
+                  Current CGPA: 3.82/4
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Aga Khan School</h3>
+                  <p class="info">A-Level<span>&bull;</span><em class="date">June 2011</em></p>
+
+                  <p>
+                     2 A [Physics, Mathematics]<br>
+                     1 B [Chemistry]
+
+                  </p>
+               
+                  <p class="info">A-Level<span>&bull;</span><em class="date">June 2009</em></p>
+                   
+                  <p>
+                     4 A [Physics, Biology, Chemistry, Accounting]<br>
+                     2 B [Bengali, Mathematics B]<br>
+                     2 C [English, Pure Mathematics]<br>
+
+                  </p>
+
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+         
+         <div class="twelve columns">
+           
+           <p><u>LANGUAGES AND APPLICATION:</u></p>
+           <p><span>&bull;</span>C, C++, C#, PHP, Javascript, CSS, HTML, PL/SQL</p>
+           <p><u>OPERATING SYSTEM:</u></p>
+           <p><span>&bull;</span>Windows 8, 7, XP</p>
+           <p><u>DATABASES:</u></p>
+           <p><span>&bull;</span>Oracle-12c</p>
+           <p><u>MICROSOFT OFFICE:</u></p>
+           <p><span>&bull;</span>MS Word, MS Excel, MS PowerPoint</p>
+         
+         </div>
+         
+        </div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+      <!-- Attributes
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="four columns header-col">
+            <h1><span>Personal Attributes</span></h1>
+         </div>  
+         
+         <div class="eight columns main-col">
+           
+           <p><span>&bull;</span>Self-motivated to learn and accomplish goals set by myself or supervisors</p>
+           <p><span>&bull;</span>Resourceful with a can-do attitude to solve any problems and challenges faced</p>
+           <p><span>&bull;</span>Excellent communication, presentation and personal skills</p>
+           <p><span>&bull;</span>Strong commitment to personal and workplace safety developed through coursework</p>
+           <p><span>&bull;</span>Fast learner and able to work independently or especially as part of a team </p>
+         
+         </div><!--end main-col -->
+         
+        </div> <!-- Attributes end -->
+
+              <!-- Language skills
+      ----------------------------------------------- -->
+      <div class="row skills">
+
+         <div class="four columns header-col">
+            <h1><span>Language Skills</span></h1>
+         </div>  
+         
+         <div class="eight columns main-col">
+         
+         <div class="twelve columns">
+           
+           <p><u>BENGALI:</u></p>
+           <p><span>&bull;</span>Fluent in both verbal and written</p>
+           <p><u>ENGLISH:</u></p>
+           <p><span>&bull;</span>Fluent in both verbal and written</p>
+         </div>
+         
+        </div> <!-- main-col end -->
+         
+        </div> <!-- language skills end -->
+
+   </section> <!-- Resume Section End-->
+
+
+<!--achievement section-->
+
+    <section id="achievements">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+            <br>
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class=" bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a id="one" href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/table-tennis.png">
+                        <div class="overlay">
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a id="two" href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/football.png">
+                        <div class="overlay">
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a id="three" href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/boot.jpg">
+                        <div class="overlay">
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+          		 <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a id="four" href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/tron.jpg">
+                        <div class="overlay">
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img style="width:100%" class="scale-with-grid" src="images/portfolio/modals/cup.png" alt="" />
+
+		      <div class="description-box">
+			   
+			      <p>Table-tennis doubles champion in table tennis tournament in Aga Khan School, Dhaka 2011.</p>
+      
+		      </div>
+
+            <div class="link-box">
+		         <a id="close" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/aks.jpg" alt="" />
+
+		      <div class="description-box">
+			      <p>Competed in the Aga Khan Interschool Football Tournament 2010.</p>
+               
+		      </div>
+
+            <div class="link-box">
+		         <a id="close" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/aiub.jpg" alt="" />
+
+		      <div class="description-box">
+			      <p>Competed in the American International University Bangladesh Champions League 2013, 2014.</p>
+		      </div>
+
+            <div class="link-box">
+		         <a id="close" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img style="width:100%" class="scale-with-grid" src="images/portfolio/modals/arsenal.jpg" alt="" />
+
+		      <div class="description-box">
+			      <p>Excellent FIFA player in both xbox and playstation.</p>
+		      </div>
+
+            <div class="link-box">
+		         <a id="close" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- achievement Section End-->
+
+
+   <!-- References Section
+   ================================================== -->
+   <section id="References">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>References</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                        <h2>Dr. Dip Nandi</h2>
+                           <p>Assistant Professor and Head of Department</p>
+                           <p>Undergraduate Program</p>
+                           <p>American International University of Bangladesh</p>
+                           <p>dip.nandi@aiub.edu</p>
+                           <p>(+8802) 8816173-4 (Ext-432)</p>
+                           </blockquote>
+                     </li> <!-- slide ends -->
+
+                      <li>
+                        <blockquote>
+                        <h2>Rezwan Ahmed</h2>
+                           <p>Assistant Professor</p>
+                           <p>American International University of Bangladesh</p>
+                           <p>a.rezwan@aiub.edu</p>
+                           <p>+8801770166977</p>
+                           </blockquote>
+                     </li> <!-- slide ends -->
+
+                      <li>
+                        <blockquote>
+                        <h2>Afsah Sharmin</h2>
+                           <p>Assistant Professor</p>
+                           <p>American International University of Bangladesh</p>
+                           <p>afsah@aiub.edu</p>
+                           <p>+01726261389</p>
+                           </blockquote>
+                     </li> <!-- slide ends -->
+
+                   
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- References Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
+</html>
